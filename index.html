@@ -8,24 +8,24 @@
 </head>
 <body>
     <div id="calculator">
-        <div class="screen"><div class="display">12</div></div>
+        <div class="screen"><div class="display">0</div></div>
         <div class="buttons-container">
             <button class="btn-num" value="1">1</button>
             <button class="btn-num" value="2">2</button>
             <button class="btn-num" value="3">3</button>
-            <button class="btn-operate" onclick="calculator.add()">+</button>
+            <button class="btn-num btn-operate" value="+">+</button>
             <button class="btn-num" value="4">4</button>
             <button class="btn-num" value="5">5</button>
             <button class="btn-num" value="6">6</button>
-            <button class="btn-operate" onclick="calculator.subtract()">-</button>
+            <button class="btn-num btn-operate" value="-">-</button>
             <button class="btn-num" value="7">7</button>
             <button class="btn-num" value="8">8</button>
             <button class="btn-num" value="9">9</button>
-            <button class="btn-operate" onclick="calculator.multiply()">*</button>
-            <button class="btn-clear" onclick="calculator.clear()">CLR</button>
+            <button class="btn-num btn-operate" value="*">*</button>
+            <button class="btn-clear" onclick="clear()">CLR</button>
             <button class="btn-num" value="0">0</button>
-            <button class="btn-equals">=</button>
-            <button class="btn-operate" onclick="calculator.divide()">/</button>
+            <button class="btn-equals btn-num" value="=" onclick="">=</button>
+            <button class="btn-num btn-operate" value="/">/</button>
         </div>
     </div>
     <script src="script.js"></script>
