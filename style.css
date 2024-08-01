@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#calculator {
+    background-color: gray;
+    width: 350px;
+}
+
+.screen {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.screen .display {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 34px;
+    align-items: center;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:5px;
+}
+
+.buttons-container button {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: calc(90% / 4);
+    margin: 2px;
+}
+
+.buttons-container .btn-operate {
+    background-color: orange;
+}
+.buttons-container .btn-clear {
+    background-color: red;
+}
+.buttons-container .btn-equals {
+    background-color: green;
+}
